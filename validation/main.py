@@ -10,6 +10,7 @@ class Style(BaseModel):
 
 
 
+
 if __name__ == "__main__":
     style_obj = Style(id='3',account = 'picc') # Note that string value of id was coerced to an int.
     print(style_obj.model_dump()) # returns a dictionary{'id': 2, 'name': 'niladri'}
